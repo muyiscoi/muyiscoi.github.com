@@ -1,0 +1,28 @@
+---
+id: 8
+title: 'Choosing a platform &#8230; Blogger vs WordPress.com'
+date: 2010-09-07T23:19:00+00:00
+author: muyiscoi
+layout: post
+guid: http://muyiscoi.wordpress.com/2010/09/07/choosing-a-platform-blogger-vs-wordpress-com
+permalink: /?p=8
+blogger_blog:
+  - blog.muyiscoi.com
+blogger_author:
+  - muyiscoi
+blogger_22a234c64428c573e5bd1b25177cad42_permalink:
+  - 8542024411664967065
+dsq_thread_id:
+  - 192284692
+categories:
+  - Technology
+tags:
+  - blog
+  - blogger
+  - wordpress
+---
+I am in the process of creating a full featured website for myself. I intend to do this with as little spending as possible on my part. However, i want to achieve a professional output. This means that when it comes to my blog, it had to be on my domain and not be a link to a blog hosted on blogger or wordpress.com. My domain name is registered with a very cheap plan however (see comment about spending above) so i did not want to create a self hosted wordpress blog because of the fear of exceeding my monthly bandwidth. I then began researching on how to have my blog hosted on wordpress.com or blogger servers but redirect to my subdomain. It turns out that this is possible for both parties. I actually leaned more to wordpress by default (being opensource and all). I went right ahead and created a blog on wordpress.com and proceeded with finding specific instructions on how to go about redirecting my subdomain which i had recently created. After finding the info, i proceeded with applying it to my newly created blog only for me to hit a massive brickwall. I had to shell out $12 for that feature. After the initial WTF! reaction, i reasoned it again and my thoughts began to resonate with the wordpress.com guys. Afterall, they weren&#8217;t a charity. They had to make their money somehow. Up until then, i didnt know how they actually did it but i guess i had figured out one of the ways. Me being the cheap ass student that i am, i quickly closed that tab, opened another, and typed in the URL for blogger. I know that blogger belongs to Google and being the all round do-gooders that they are, i wanted to believe that thier version of the redirect service will be free &#8230; and it is. So, i proceeded with ressurecting my dead blogger blog which had remained dormant for over a year and a few hours of tweaks and hacks later, i had it looking fairly recent and i was ready to redirect. I have done that now and d URL is loading google.com instead of my blog. However, that seems to be a normal thing as the DNS has to resolve or something like that and that could take a day or more. So, i undid it in order to post this and i will redo once i am done. Fingers crossed :).
+
+<div class="blogger-post-footer">
+  © Muyiwa Iyowu. 2010. Some rights Reserved.
+</div>

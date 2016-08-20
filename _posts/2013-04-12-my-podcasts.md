@@ -1,0 +1,130 @@
+---
+id: 494
+title: My Podcasts
+date: 2013-04-12T16:29:13+00:00
+author: muyiscoi
+layout: post
+guid: http://www.muyiscoi.com/?p=494
+permalink: /?p=494
+categories:
+  - Life Updates
+tags:
+  - audio
+  - fantasy
+  - Podcasts
+  - scifi
+  - technology
+  - ubuntu
+  - video
+---
+I am an avid listener/viewer of podcasts, and in this post, I will outline all the ones I am currently subscribed to.
+  
+I have separated them into video and audio, based on the format I consume them in, not based on the available versions.
+
+<p style="text-align: left;">
+  <strong>Audio</strong><br /> 1. <a href="https://clarkesworldmagazine.com/podcasting">Clarkesworld Magazine:</a>
+</p>
+
+<p style="text-align: left;">
+  <a href="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-164840.png"><img class="size-medium wp-image-495 aligncenter" src="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-164840-580x85.png" alt="Screenshot from 2013-04-12 16:48:40" width="580" height="85" srcset="https://muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-164840-580x85.png 580w, https://muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-164840.png 768w" sizes="(max-width: 580px) 100vw, 580px" /></a><br /> <em>Clarkesworld is a monthly science fiction and fantasy magazine first published in October 2006. Each issue contains interviews, thought-provoking articles and at least three pieces of original</em> fiction. <em>The Podcast features stories published in the magazine.</em><br /> A new episode is added to our site on the 1st, 14th and 21st of each month.
+</p>
+
+<p style="text-align: left;">
+  2. <a href="https://geeksguideshow.com/">Geek&#8217;s Guide to the Galaxy:</a>
+</p>
+
+<p style="text-align: left;">
+  <a href="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-165112.png"><img class="size-medium wp-image-496 aligncenter" src="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-165112-580x124.png" alt="Screenshot from 2013-04-12 16:51:12" width="580" height="124" srcset="https://muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-165112-580x124.png 580w, https://muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-165112.png 834w" sizes="(max-width: 580px) 100vw, 580px" /></a><br /> <em>Geek’s Guide to the Galaxy is an interview/talk show hosted by Lightspeed Magazine editor John Joseph Adams and author David Barr Kirtley. Each episode features an interview with a leading figure in the world of science and science fiction, followed by a discussion of science fiction books, movies, video games, and more.<br /> </em>Episodes are released bi-weekly.
+</p>
+
+<p style="text-align: left;">
+  3. <a href="https://www.lightspeedmagazine.com/podcasting/">Lightspeed Magazine Podcast</a>:
+</p>
+
+<p style="text-align: left;">
+  <a href="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-165716.png"><img class="size-full wp-image-497 aligncenter" src="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-165716.png" alt="Screenshot from 2013-04-12 16:57:16" width="397" height="98" /></a><em><em>Lightspeed</em> is an online science fiction and fantasy magazine. In its pages, you will find science fiction: from near-future, sociological soft SF, to far-future, star-spanning hard SF—and fantasy: from epic fantasy, sword-and-sorcery, and contemporary urban tales, to magical realism, science-fantasy, and folktales. No subject is off-limits, and we encourage our writers to take chances with their fiction and push the envelope.<br /> The Podcast features audiobook-style recordings of four of the eight stories published each month in Lightspeed, released more or less on a weekly basis</em>
+</p>
+
+<p style="text-align: left;">
+  4. <a href="https://www.jupiterbroadcasting.com/show/scibyte/">SciByte</a>:
+</p>
+
+<p style="text-align: left;">
+  <a href="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-170308.png"><img class="size-full wp-image-498 aligncenter" src="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-170308.png" alt="Screenshot from 2013-04-12 17:03:08" width="404" height="120" /></a>
+</p>
+
+<p style="text-align: left;">
+  <em>Science and technology, in bite-sized (and delicious) chunks. Stay up-to-date on the most exciting developments in science, every week!</em>
+</p>
+
+<p style="text-align: left;">
+  This Podcast also has a video version but I prefer the Audio only format. It is one of the shows on the Jupiter Broadcasting Network.
+</p>
+
+<p style="text-align: left;">
+  5.<a href="https://podcast.ubuntu-uk.org/"> Ubuntu UK Podcast</a>:
+</p>
+
+<p style="text-align: left;">
+  <a href="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/logo.png"><img class="size-full wp-image-499 aligncenter" src="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/logo.png" alt="logo" width="266" height="64" /></a><em>The Ubuntu Podcast covers all the latest news and issues facing Ubuntu Linux users and Free Software fans in general. The show appeals to the newest user and the oldest coder. Our discussions cover the development of Ubuntu but aren’t overly technical. We are lucky enough to have some great guests on the show, telling us first hand about the latest exciting developments they are working on, in a way that we can all understand! We also talk about the Ubuntu community and what it gets up to.</em>
+</p>
+
+<p style="text-align: left;">
+  Episodes are released weekly.
+</p>
+
+<p style="text-align: left;">
+  <strong>Video</strong>
+</p>
+
+<p style="text-align: left;">
+  1.<a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"> Linux Action Show</a>:
+</p>
+
+<p style="text-align: left;">
+  <a href="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-170857.png"><img class="size-medium wp-image-500 aligncenter" src="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-170857-580x55.png" alt="Screenshot from 2013-04-12 17:08:57" width="580" height="55" srcset="https://muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-170857-580x55.png 580w, https://muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-170857.png 664w" sizes="(max-width: 580px) 100vw, 580px" /></a><em>The worlds #1 Linux podcast. A weekly show that covers the best in the open source and Linux world. Get a solid dose of Linux, gadgets, howto, reviews, and news every week!</em>
+</p>
+
+<p style="text-align: left;">
+  This show is also part of the Jupiter Broadcasting Network.<br /> New shows are released weekly.
+</p>
+
+<p style="text-align: left;">
+  2. <a href="https://www.jupiterbroadcasting.com/show/techsnap/">TechSNAP</a>:
+</p>
+
+[<img class="size-full wp-image-501 aligncenter" src="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-171506.png" alt="Screenshot from 2013-04-12 17:15:06" width="449" height="74" />](https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-171506.png)TechSNAP our weekly Systems, Network, and Administration Podcast. Every week TechSNAP covers the stories that impact those of us in the tech industry, and all of us that follow it. Every episode we dedicate a portion of the show to answer audience questions, discuss best practices, and solving your problems.
+
+<p style="text-align: left;">
+  Yet another show on the Jupiter Broadcasting Network.<br /> New shows are released weekly.
+</p>
+
+<p style="text-align: left;">
+  3.<a href="https://twit.tv/twit"> This Week in Tech (TWiT)</a>:
+</p>
+
+[<img class="size-full wp-image-502 aligncenter" src="https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-171745.png" alt="Screenshot from 2013-04-12 17:17:45" width="285" height="111" />](https://www.muyiscoi.com/blog/wp-content/uploads/2013/04/Screenshot-from-2013-04-12-171745.png)Your first podcast of the week is the last word in tech. Join the top tech pundits in a roundtable discussion of the latest trends in high tech.
+
+<p style="text-align: left;">
+  This is a podcast hosted by the legendary Leo Laporte on his TWIT network.<br /> Episodes are released weekly.
+</p>
+
+<p style="text-align: left;">
+  <strong>Honorable mentions</strong>
+</p>
+
+<p style="text-align: left;">
+  Here are a few podcasts I don&#8217;t follow religiously, but check out once in a while.
+</p>
+
+<p style="text-align: left;">
+  1. <a href="https://twit.tv/show/triangulation/98">Triangulation<br /> </a>
+</p>
+
+<p style="text-align: left;">
+  2. <a href="https://www.jupiterbroadcasting.com/show/fauxshow/">FauxShow</a>
+</p>
+
+<p style="text-align: left;">
+  3. <a href="swordandlaser.com/">Sword and Laser</a>
+</p>

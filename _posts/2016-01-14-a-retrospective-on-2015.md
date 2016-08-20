@@ -1,0 +1,38 @@
+---
+id: 879
+title: A retrospective on 2015
+date: 2016-01-14T12:13:57+00:00
+author: muyiscoi
+layout: post
+guid: http://muyiscoi.com/?p=879
+permalink: /?p=879
+categories:
+  - Life Updates
+---
+On a day like this, it is customary to think back on the year and consider all that has happened through the lens of experience.
+
+This year has been a remarkable one for me in many dimensions. I began the year in my home country, working in the same job I&#8217;d had for over a year at that point. Five days into the year, I had tendered my resignation and started preparing for my journey to the UK. Ten days later, I was at Heathrow airport, thus beginning an entirely new chapter in my life.
+
+Prior to this trip, I had never been outside the country. I had the opportunity once to go on a field trip to a neighbouring country with some classmates, but I told my parents I wasn&#8217;t interested. Looking back now, I can&#8217;t remember what my motivations were for not wanting to go, but I would guess it had something to do with fear.
+  
+Fear is a theme that has been prevalent in my life for as long as I can remember. I tended to shy away from new experiences, preferring to remain in my comfort zone, than try something new. I had been striving to shed that character trait, and this journey was the most visible success of those efforts.
+
+On reaching Porstmouth, I promptly began attending my lectures, as I was already a week late in resuming. I&#8217;m still a student now, at the end of the year; Hoping to graduate with a Masters degree sometime in 2016.
+
+My stay in the UK has been interesting and illuminating in various ways. I&#8217;m not a very extroverted person, and find it hard making friends at times. I have however, been able to make friends with some very nice people over here.  The diversity in cultures found at the University has broadened my horizons and most importantly, shown me that at our cores, we&#8217;re all just humans with mostly the same motivations and aspirations.
+
+At the end of the year, I can say that I have grown immensely emotionally. I still have to make a conscious effort to socialise in group situations, and have to remember to engage in conversations and not just answer questions, but I&#8217;ve definitely made way more progress that I previously had in the two years prior, and I can only see that getting better in 2016.
+
+My main reason for coming to the UK is to study for my masters degree, and while that is still ongoing, I have come to the end of the teaching block of the course, with just my project work to go. I can say with all conviction that I have thoroughly enjoyed my masters programme so far, and have learnt a tonne!. Unlike ICT training centres that teach the specifics of a particular solution from a specific vendor with a focus on passing some certification exam, this program explains the fundamentals and underlying technologies. An understanding of those would make learning about any particular implementation of these technologies a trivial endeavour.
+
+During this year, I&#8217;ve also been able to accomplish a bit of self learning. Not as much as I planned to, but not an insignificant amount as well. I plan on continuing this trend in the new year, with my first certification exam already scheduled for January.
+
+I started working in September as an IT help Adviser for the university. It is a very similar position to the one I had back home, minus the sales aspect of it. It is also a lot less stressful as I have less hours, and the shifts are not always very busy. This has been a very rewarding part of the year for me, as I have been able to earn income, and not rely on my folks at home for everything.
+
+This year, I continued my trend of reading novels. I read some good ones such as Stardust and The ocean at the end of the lane, both by Neil Gaiman, The Martian by Andy Wier, and others. I didn&#8217;t do as well as I should have in this department though, and hope to do better next year.
+
+This year was an okay year for new gadgets for me. The stand out purchase was the pebble time smartwatch. I still have the same laptop and smartphone as I did going into this year, so that hasn&#8217;t changed. There were a few other bits and bobs that were bought throughout the year, but nothing too spectacular. Another purchase I can think of right now is the Blue Snowball microphone which I bought used off ebay.
+
+I&#8217;m sure there are several other things that happened to me this year, maybe some even significant that I&#8217;m omitting, but this would have to suffice for now.
+
+HAPPY NEW YEAR AND SEE YOU ALL IN 2017!

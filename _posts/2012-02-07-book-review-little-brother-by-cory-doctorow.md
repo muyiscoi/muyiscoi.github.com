@@ -1,0 +1,33 @@
+---
+id: 318
+title: 'Book Review: Little Brother by Cory Doctorow'
+date: 2012-02-07T19:55:09+00:00
+author: muyiscoi
+layout: post
+guid: http://muyiscoi.com/?p=318
+permalink: /?p=318
+categories:
+  - Book Review
+tags:
+  - Cory Doctorow
+  - Little Brother
+  - M1k3y
+  - Sci-Fi
+---
+<p style="text-align: left;">
+  <a href="https://muyiscoi.com/blog/wp-content/uploads/2012/02/Little-Brother.jpg"><img class="size-medium wp-image-319 aligncenter" title="Little-Brother" src="https://muyiscoi.com/blog/wp-content/uploads/2012/02/Little-Brother-199x300.jpg" alt="" width="199" height="300" /></a>
+</p>
+
+<p style="text-align: left;">
+  Little Brother follows the story of Marcus Yallow also known as &#8220;M1k3y&#8221; who, with some of his friends, was arrested and interrogated by the US Department of Homeland Security (DHS) as a suspected terrorist just because of his proximity to the site of a terrorist attack on a bridge. After he is released, he somewhat inadvertently founded an underground movement based around an network of hacked X-boxes running a distribution of Linux called ParanoidXbox.<br /> The movement was called Xnet and its objective was to foil the increasingly frustrating restrictions which the DHS imposed on the people under the guise of trying to prevent another terrorist attack.<br /> Marcus faces several challenges and somehow manages to overcome most, soliciting the help of others as he went along. Eventually, his deeds were catching up with him and he has to look for a way to end it all.
+</p>
+
+Over the years, I haven&#8217;t really read much of Sci-Fi. I guess the major reason is that I find it difficult to relate to a lot of the futuristic technology displayed in a lot of Sci-Fi titles. However, when this book was recommended to me by a friend, I decided to pick it up anyway.
+  
+I totally enjoyed myself while reading this!. The tech in this book is not futuristic at all. It is all present day technology. Reading this book gives you intermediate level insight into concepts such as Cryptography, Tunneling, spoofing IP, Tor (The Onion Router), Xbox hacking, linux, LARP (Live Action Role Playing), etc. All these technologies are integrated in such a way as to supplement the story telling and provide for a much richer story.
+  
+The author of this book, Cory Doctorow, is someone I have known of for quite sometime as something of an Internet celebrity in certain quarters. I knew he wrote fiction and have even glanced through a copy of the graphic novel version of one of his books , I, Robot, before, but I haven&#8217;t really read any of his fiction before this. After reading this, I&#8217;m resolved to try to pick up another one of his books. The themes of his books are ever more pertinent in this world of [SOPA](http://en.wikipedia.org/wiki/SOPA) and [PIPA](http://en.wikipedia.org/wiki/PIPA).
+
+<p style="text-align: left;">
+  <em>Although Little Brother is published by Tor Books, it is also distributed online via a Creative Commons Licence. You can LEGALLY download it <a href="http://craphound.com/littlebrother/download/">here</a></em>
+</p>

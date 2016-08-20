@@ -1,0 +1,63 @@
+---
+id: 68
+title: The Birth of Jesus (21st Century Version) Part 1
+date: 2011-04-05T00:24:20+00:00
+author: muyiscoi
+layout: post
+guid: http://muyiscoi.com/?p=68
+permalink: /?p=68
+dsq_thread_id:
+  - 271126719
+categories:
+  - Stories
+tags:
+  - birth
+  - jesus
+  - short story
+  - writing
+---
+I recently started thinking about how the Birth of Jesus Might have played out if it happened in present times. Admittedly, it is not as radical as the video below but i think it would have played out something close to what I have written below. For a good laugh, check out d video clip below.
+
+
+  
+**Beginning**
+
+Mary was in a cab, going back from Joseph’s carpentry shop. The visit had been cut short because of her vomiting. Over the past few days, she had begun experiencing feverish feelings and vomiting; especially in the mornings.
+
+She had not told Joseph, her fiancé, about it because she didn’t want to alarm him until she was sure it was something serious. Today was the first time he noticed her condition, and when he suggested they go to the hospital, she shrugged it off and convinced him that it was nothing serious. Joseph still insisted she took a cab home, instead of walking like she normally did.
+  
+<!--more--> Sitting in the back seat of the cab, Mary listened to the gentle hum of the cab engine as her mind wandered through all the experiences she has had with her beloved Joseph. How she met him while on the hunt for a new settee, how he had charmed her with his sweet talk and delicate features, and how they had spent countless hours enjoying the company of one another.
+
+
+  
+Mary knew without an element of a doubt that Joseph was the one she wanted to spend the rest of her life with, and she was determined to see it so.
+  
+While she was still deep in thought, she noticed that the cab had come to a stop, and the driver was saying something unintelligible. She just quickly handed him the money and stepped out just quickly handed him the money and stepped out of the cab, not wanting to lose her pleasant train of thought. Too late. It was already gone.
+  
+Stepping into her house, she decided to relax on the sofa and watch some TV until she falls asleep. One of those shows where human beings perform some insane stunts was on, and while watching it, Mary began to feel her eyelids grow heavier until they shut completely.
+  
+Then she heard her name.
+  
+Her eyes shot open as she looked around for the origin of the voice, as she was supposed to be the only one at home. Again, she heard her name, and this time, she noticed where it was coming from. A man, dressed in a white track suit and having the whitest of teeth was calling her name. When she noticed him, he smiled at her, and she had to avert her eyes, to prevent too much light from getting in.
+  
+“I have to reduce the brightness of this TV” she thought to herself, and then she realized that the man calling her name was in her TV.
+  
+The white TV man stared at Mary, obviously watching for her to wrap her mind around what was happening. Mary reasoned that she had to be dreaming, because it was impossible for a TV to speak to her. At that point, the TV man spoke again. “Hi there Mary. My name is Gabriel and I am an Angel of the Lord”. On hearing this, Mary’s fright increased exponentially. “He must be here to punish me for what I did” she thought. “I shout have told Joseph about the vomiting”. The fright must have been obvious on her face, or being an angel, Gabriel must have known how she felt because he immediately added “Don’t be afraid. The Lord is with you because you have found favour in his sight. “Favour? Me?” Mary thought. She was the first to admit that she was deeply religious and had “old school” values, but to get favour from God!?, that was way beyond her wildest imagination. At least, she thought, “he is not here to punish me”. She looked up at her TV screen, as if prompting Gabriel the angel to continue. And, right on cue, he did. “You will conceive and have a son who will be called “Jesus” because he will be great, and the Son of the Most high God. The Lord will give him the throne of David, and he will reign over the house of Jacob forever; his kingdom shall have no end”.
+  
+At this point, Mary was dumbfounded. Sure she wanted to have children after she had married Joseph. However, how could both of them give birth to the son of God? More importantly, how could she conceive when she was still a virgin? Also, she knew she has a distant relation that was a king called David from several generations ago, but almost everyone in the city was also related to the guy, so how come her son will inherit David’s throne?
+  
+As all these questions, and more, buzzed around in her mind, she decided to ask the most bizarre one of them all. “If you don’t mind me asking”, she said, “How will I be able to bear a child since I am not married yet?”
+  
+“It will be the Job of the Holy Spirit”, Gabriel Said. “He will come upon you, and the power of God will overshadow you. That child will therefore be called holy, because he is the son of God.”
+  
+Although this did not make much sense to Mary, she decided not to argue with Gabriel, and listen to the rest of what he had to say.
+  
+Gabriel , probably sensing Mary’s resolution, smiled without revealing his teeth and continued his message; going on about Mary’s Aunt, Elizabeth, who was six month’s pregnant, although she was already old and even at her prime, was deemed barren. He noted that it was the making of God, using it as a precursor for the stating that his statement was not impossible.
+  
+Mary understood the meaning of the Statement, and decided not to try too much to decipher the whole message. She then told Gabriel that she will resign herself to the hands of God.
+  
+After that, the brightness in the room increased so much so that Mary had to avert her eyes again. When she noticed that the light was gone, she looked at the TV to find that the program she had been watching before her bizarre experience was over, and the credits were rolling.
+  
+Tiredness overtook her body almost immediately, and she fell asleep, pondering over the strange encounter she just had.
+
+_**To be continued&#8230;**_

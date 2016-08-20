@@ -1,0 +1,90 @@
+---
+id: 52
+title: 'The gods are not to blame &#8230; really!'
+date: 2011-01-16T00:02:52+00:00
+author: muyiscoi
+layout: post
+guid: http://muyiscoi.com/blog/?p=52
+permalink: /?p=52
+dsq_thread_id:
+  - 209911599
+categories:
+  - Book Review
+tags:
+  - literature
+  - ola rotimi
+  - proverbs
+---
+The gods are not to blame is a classic African (Nigerian) play by late renown Playwright Ola Rotimi. It is based on the classic Greek myth, Oedipus. Not having read the original Greek depiction, i cannot comment on how it relates or how this translates. However, I found the play very interesting and engaging (though i have never seen it on stage). I recently came across it again (it was recommended reading in JSS3) and decided to give it another read. I had forgotten about the treasure trove of Parables found throughout the book and found it to be very refreshing. I took note of all the parables and typed them out afterwards. They are listed below.
+
+If you are like me, and you love a good work of literature, i would recommend picking up this book. Even though you are not Yoruba, or Nigerian, or even African, you will really enjoy this book as its story speaks to you irrespective of your race.
+
+Enjoy.
+
+1. When the head of a household dies, the house becomes an empty shell.
+
+2. When the Chameleon brings forth a child, is not that child expected to dance?
+
+<!--more-->
+
+3. When rain falls on the leopard, does it wash off its spots?
+
+4. How long must feverish birds tremble in silence before their keeper
+
+5. My People. Children of our fathers. Sickness is like rain. Does the rain fall on one roof alone?. No. Does it fall on one body and not on another? No. Whoever the rain sees, on him it rains. Does it not?
+
+6. You do me great wrong, therefore, to think that, like the rock in the middle of a lake, forever cooled by the flowing waters, I do not know, and cannot know the sun&#8217;s hotness that burns and dries up the open land
+
+7. The moon moves slowly but by daybreak it crosses the sky
+
+8. By trying often, the monkey learns to jump from tree to tree without falling
+
+9. It is said that the secrets of a home should be known first to the head of the home
+
+10. The horns cannot be too heavy for the head of the cow that must bear them
+
+11. Now my people, when trees fall on trees, first the topmost must be removed
+
+12. When crocodiles eat their own eggs, what will try do to the flesh of a frog?
+
+13. All lizards lie prostrate: how can a man tell which lizard suffers from bellyache? In time, the pain will make one of them lie flat on its back, then shall that which has been unknown be made known
+
+14. The good ruler who stands for the people becomes a victim too soon. And bad rulers like bad sauce, stay longer
+
+15. A chicken eats corn, drinks water, swallows pebbles, yet she complains of having no teeth. If she had teeth, would she eat gold? Let her ask the cow who has teeth yet eats grass.
+
+16. Is it not ignorance that makes the rat attack the cat?
+
+17. When the evil-plotter beats his drum for the downfall of the innocent, the gods will not let that drum sound
+
+18. The hyena flirts with the hen, the hen is happy, not knowing that her death has come
+
+19. Two rams cannot drink from the same bucket at the same time!. They will lock horns
+
+20. Meat that has fat will prove it by the heat of fire
+
+21. An eagle does not go to the market-place unless there is something there.
+
+22. Why, the tortoise is not tall but it is taller than the snail; the snail is taller than the frog; the frog is taller than the lizard; the lizard is taller than the fly; the fly is taller than the ant; the ant in turn is taller than the ground on which it walks
+
+23. Indeed, what is the difference between the right ear of a horse and the left ear of the same horse? Nothing.
+
+24. Ignorance makes the rat call the cat to a fight.
+
+25. Because the farm-owner is slow to catch the thief, the thief, the thief calls the farm-owner thief!.
+
+26. The monkey and the gorilla may claim oneness but the monkey is Monkey and the gorilla, Gorilla.
+
+27. The mangrove tree dwells in the river, but does that make it a crocodile?
+
+28. Can the cockroach be innocent in a gathering of fowls?
+
+29. Of course, you all mean no evil against me. You all love me. We are all close friends. Like he goats and cocoyams!.
+
+30. “The man had too much wine in his head”. True, but, my people, it is what is in the heart when there is no wine in the hear, that comes out when there is wine in the head.
+
+31. A bush does not sway this way or that way, unless there is wind.
+
+32. Secrets of the owl must not be known in daylight
+
+33. When the wood-insect gathers sticks on its own head, it carries them
