@@ -1,0 +1,60 @@
+---
+layout: post
+status: publish
+published: true
+title: Creating a simple Lab environment with Vagrant
+author:
+  display_name: muyiscoi
+  login: muyiscoi
+  email: muyiwaiyowu@gmail.com
+  url: https://muyiscoi.com
+author_login: muyiscoi
+author_email: muyiwaiyowu@gmail.com
+author_url: https://muyiscoi.com
+excerpt: "On my quest for \"DevOps world domination\" :D, I've been dipping my toes
+  into tools like Puppet and Ansible. In order to fully understand these tools and
+  use them in different scenarios, a lab environment consisting of several nodes is
+  required. Vagrant makes it extremely easy to stand up such an environment.\r\n\r\nBelow,
+  I'll describe in broad strokes the steps I took to setup a 4+ node environment for
+  Ansible using Vagrant."
+wordpress_id: 998
+wordpress_url: https://muyiscoi.com/?p=998
+date: '2016-08-09 18:50:56 -0400'
+date_gmt: '2016-08-09 18:50:56 -0400'
+categories:
+- Technology
+- Sysadmin
+tags:
+- linux
+- sysadmin
+- devops
+- vagrant
+- ansible
+- puppet
+- lab environment
+- virtualbox
+- libvirt
+comments: []
+---
+<p>On my quest for "DevOps world domination" :D, I've been dipping my toes into tools like Puppet and Ansible. In order to fully understand these tools and use them in different scenarios, a lab environment consisting of several nodes is required. Vagrant makes it extremely easy to stand up such an environment.</p>
+<p>Below, I'll describe in broad strokes the steps I took to setup a 4+ node environment for Ansible using Vagrant.<a id="more"></a><a id="more-998"></a></p>
+<p>The first thing to do was to install <a href="https:&#47;&#47;www.vagrantup.com&#47;docs&#47;installation&#47;">Vagrant<&#47;a>. By default, Vagrant uses Oracle Virtualbox as its hypervisor, so this had to be installed as well on my laptop running Ubuntu 16.04. Virtualbox&nbsp;can be swapped out for something else like libvirt, hyper-V or even public cloud platforms like AWS. I'm perfectly fine with Virtualbox though, and even though I setup libvirt as a second virtualization provider for vagrant, I retained Virtualbox as the default.</p>
+<p>After installing and configuring Vagrant, a <a href="https:&#47;&#47;www.vagrantup.com&#47;docs&#47;vagrantfile&#47;">Vagrantfile<&#47;a> had&nbsp;to be created describing the lab environment I needed. The Vagrantfile is written in ruby, however, knowledge of the language is not required in order to write one. The <a href="https:&#47;&#47;www.vagrantup.com&#47;docs&#47;">Vagrant documentation<&#47;a> was very helpful in determining what was needed to get my Vagrantfile just how I wanted it.</p>
+<p>The Vagrantfile described the following environment</p>
+<p><strong>VM1<&#47;strong> :management VM: a Virtual machine where Ansible will be installed for managing the rest of the nodes and itself.</p>
+<p><strong>VM2<&#47;strong> :load balancer: a VM acting as a HA-proxy for load balancing web servers</p>
+<p><strong>VMs 3 - *<&#47;strong> : a number of VMs to be configured as web servers</p>
+<p>All VMs also need to be on the same network, able to communicate with each other, and the load balancer and Web server VMs need to forward their HTTP port to the host.</p>
+<p>Vagrant provides functionality that allows the execution&nbsp;of shell scripts after a VM is created. As a result, the "Vagrantfile" was configured to run a shell script on VM1 that would install Ansible (following instructions for ansible installation from the<a href="http:&#47;&#47;docs.ansible.com&#47;ansible&#47;intro_installation.html#latest-releases-via-apt-ubuntu"> official docs<&#47;a>), as well as append configuration to the &#47;etc&#47;hosts file to allow host name resolution across the test environment.</p>
+<p>After creating the Vagrantfile, it was placed in a root directory along with the bootstrap shell scripts. Vagrantfile and script can be found <a href="https:&#47;&#47;github.com&#47;muyiscoi&#47;vagrantfiles">here<&#47;a>.</p>
+<p>The command</p>
+<pre>$ vagrant up<&#47;pre><br />
+was then executed to provision the entire environment, and approximately 4 minutes later, I had 5 VMs fully operational with ansible installed and running on the first one.</p>
+<p>[caption id="attachment_1001" align="aligncenter" width="580"]<a href="https:&#47;&#47;muyiscoi.com&#47;blog&#47;wp-content&#47;uploads&#47;2016&#47;08&#47;test-envionment-bootstrapped-on-vagrant.png"><img class="wp-image-1001 size-medium" src="https:&#47;&#47;muyiscoi.com&#47;blog&#47;wp-content&#47;uploads&#47;2016&#47;08&#47;test-envionment-bootstrapped-on-vagrant-580x368.png" alt="test envionment bootstrapped on vagrant" width="580" height="368" &#47;><&#47;a> Final output after fully lanching test environment with Vagrant[&#47;caption]</p>
+<p>I can now get on with doing all kinds of cool stuff with Ansible and later, puppet.</p>
+<p>Resources</p>
+<ul>
+<li><a href="https:&#47;&#47;sysadmincasts.com&#47;episodes&#47;45-learning-ansible-with-vagrant-part-2-4">https:&#47;&#47;sysadmincasts.com&#47;episodes&#47;45-learning-ansible-with-vagrant-part-2-4<&#47;a><&#47;li>
+<li><a href="https:&#47;&#47;github.com&#47;muyiscoi&#47;vagrantfiles">https:&#47;&#47;github.com&#47;muyiscoi&#47;vagrantfiles<&#47;a><&#47;li>
+<li><a href="https:&#47;&#47;www.vagrantup.com&#47;docs&#47;">https:&#47;&#47;www.vagrantup.com&#47;docs&#47;<&#47;a><&#47;li><br />
+<&#47;ul></p>

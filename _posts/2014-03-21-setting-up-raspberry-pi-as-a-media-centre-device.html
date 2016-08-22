@@ -1,0 +1,66 @@
+---
+layout: post
+status: publish
+published: true
+title: Setting up Raspberry Pi as a Media Centre device
+author:
+  display_name: muyiscoi
+  login: muyiscoi
+  email: muyiwaiyowu@gmail.com
+  url: https://muyiscoi.com
+author_login: muyiscoi
+author_email: muyiwaiyowu@gmail.com
+author_url: https://muyiscoi.com
+wordpress_id: 612
+wordpress_url: http://www.muyiscoi.com/?p=612
+date: '2014-03-21 19:21:35 -0400'
+date_gmt: '2014-03-21 19:21:35 -0400'
+categories:
+- Technology
+tags:
+- linux
+- Raspberry Pi
+- networking
+- media theatre
+- plex
+- geeky stuff
+comments: []
+---
+<p>In <a href="http:&#47;&#47;muyiscoi.com&#47;post&#47;71114869487&#47;getting-started-with-raspberry-pi">the last post<&#47;a>, we looked into setting up the Raspberry Pi in general, and what that entails.</p>
+<p>This article is gonna focus on setting it up as a Media Centre device.</p>
+<p>I have lots of media (Music, Movies, TV Series, etc.) on my laptop and I&rsquo;ve always wanted a stress free way to have that content available to me on all my devices, be it on my TV, iPad or Phone.</p>
+<p>The perfect solution for this came in the form of Plex Media Server.</p>
+<p><strong>Plex Media Server<&#47;strong></p>
+<p><img alt="" src="https:&#47;&#47;31.media.tumblr.com&#47;3b0a6baf6fd9ea4d4f2b11007c1414d5&#47;tumblr_inline_myfilkZc0u1srketq.png" &#47;></p>
+<p><a href="https:&#47;&#47;www.plex.tv&#47;">Plex Media Server<&#47;a> is a free (but closed source) Media server application that indexes and organizes all kinds of media from Music to TV shows, Movies, Anime, etc. It also downloads Album art, Show banners and other metadata, even down to TV Show theme music. Plex media server is very easy to setup and is available to install on all major OSes.</p>
+<p>I run Ubuntu on my laptop, so naturally, that&rsquo;s where I installed my Plex Media server instance. After installation, Plex Media server runs as a background service which autostarts on booting the system. It has a web UI (pictured above) for managing your media collection. Its all really straightforward and easy to follow. I did have a little issue where some of my media wasn&rsquo;t being recognized, but after changing file permissions, I was able to fix that.</p>
+<p>The initial indexing of my vast media collection took a while and at the end, about 1gb of data, but it was definitely worth it. Once I had plex setup as a media server on my laptop, I could then move on to setting it up on the Raspberry Pi.</p>
+<p><strong>RasPlex<&#47;strong></p>
+<p><img alt="" src="https:&#47;&#47;31.media.tumblr.com&#47;b7b4c5357917cb8f940906148adb68b4&#47;tumblr_inline_myfjz7p7TR1srketq.jpg" &#47;></p>
+<p>Plex doesn&rsquo;t have an official Home Theatre app for the Raspberry pi (or Linux), even though they have one for iOS, Android, Windows and OSX.</p>
+<p>Some fine folks over at <a href="http:&#47;&#47;rasplex.com&#47;">RasPlex<&#47;a> have fixed this though, by creating RasPlex which is based on OpenELEC, which is in turn based on XBMC, which the original Plex Home Theatre app is based on. So, they are all more or less the same. :D.</p>
+<p>Installing RasPlex on the Raspberry Pi has been made quite easy by the RasPlex team. There are installers available for Windows, OSX and Linux. Once the Installers are downloaded, they can be used to download the latest version of RasPlex, and also flash it to a compatible 8gb SD card. Pop that SD card into the Raspberry Pi&rsquo;s slot and voila!, you have a working install of RasPlex.</p>
+<p>As long as your Raspberry Pi is connected to the same network as your Plex media server, RasPlex should detect your media collection and allow you to play media directly on your TV.</p>
+<p><strong>Issues<&#47;strong></p>
+<p>I ran into a major issue after setting up RasPlex on the Raspberry Pi. Although it worked just fine on the big TV in the sitting room while connected via HDMI, it refused to display a thing when connected via composite video to the smaller TV in the room. After a bit of googling, I discovered that RasPlex is configured to use HDMI only by default. I guess the developers assumed nobody would be using TVs without HDMI input in 2013. Thankfully, there&rsquo;s a <a href="http:&#47;&#47;sourceforge.net&#47;p&#47;rasplex&#47;wiki&#47;SD%20TV%20Output&#47;">workaround<&#47;a> and it only involves editing a text file. I did have to do the edit on a windows machine though (something to do with those pesky file ownership and permissions issue), but apart from that hickup, it was a quick fix.</p>
+<p>Once that was done, the RasPlex displayed properly on the TV and once I got a &ldquo;3.5mm audio jack to composite audio converter cable&rdquo;, I could also get audio into the TV.</p>
+<p><strong>OpenELEC<&#47;strong></p>
+<p><a href="http:&#47;&#47;openelec.tv&#47;"><img alt="" src="https:&#47;&#47;31.media.tumblr.com&#47;309a6f89eab0b010b225eb453d137aa1&#47;tumblr_inline_myfjxnCK7P1srketq.jpg" &#47;><&#47;a></p>
+<p><a href="http:&#47;&#47;openelec.tv&#47;">OpenELEC<&#47;a> is another Media Centre platform available on the Pi. RasPlex is built on OpenELEC, as evidenced by the OpenELEC splash screen that comes up when booting RasPlex.</p>
+<p>However, if you want something as close to running generic XBMC on your Raspberry Pi, OpenELEC is the way to go.</p>
+<p>Installing OpenELEC, like most installations on the Raspberry Pi is as easy as flashing the image unto a memory card. There are instructions on how to do this for each platform on the&nbsp;<a href="http:&#47;&#47;wiki.openelec.tv&#47;index.php?title=Installing_OpenELEC_on_Raspberry_Pi">OpenELEC wiki<&#47;a>. I did this on my trusty Ubuntu laptop and it worked perfectly.</p>
+<p>Booting up OpenELEC on the Pi takes you to a generic XBMC UI. Its clean and uncluttered.</p>
+<p>Mr preferred solution, of the two, is RasPlex.</p>
+<p><strong>Controlling your Media Centre<&#47;strong></p>
+<p>Although the Raspberry Pi supports both USB Mouse and Keyboard, these are not ideal when dealing with a Media Centre platform. One would not like to get up to the TV in order to change the media playing.</p>
+<p>Thankfully, this is remedied by a host of Remote applications available for both iOS and Android.</p>
+<p>For RasPlex, my favourite remote app is simply called &ldquo;<a href="https:&#47;&#47;play.google.com&#47;store&#47;apps&#47;details?id=com.appealingworks.plexremote">Plex Remote<&#47;a>&rdquo;. Its a free app in the play store, and so long as your android device is connected to the same network as the Raspberry Pi, it detects your RasPlex instance immediately and allows you to control its UI and launch your media.</p>
+<p>For OpenELEC, any plain old XBMC remote would work. There are several of them on the Play store, but I haven&rsquo;t tried out any since I did not decide on using OpenELEC in the long run, so I can&rsquo;t recommend one.</p>
+<p><strong>Miscellaneous<&#47;strong></p>
+<p>The solution above allowed me to elegantly stream my media collection from my laptop acting as the server the Raspberry Pi connected to my TV. However, at other times, I might want to stream the same content to my phone or tablet instead.</p>
+<p>Plex has awesome applications for both <a href="https:&#47;&#47;itunes.apple.com&#47;en&#47;app&#47;plex&#47;id383457673?mt=8">iOS<&#47;a> and <a href="https:&#47;&#47;play.google.com&#47;store&#47;apps&#47;details?id=com.plexapp.android">Android<&#47;a> that do just that. Both applications cost $4.99 on their individual stores. They automatically connect to the Plex server and allow you to stream your content directly to your device.</p>
+<p>The centralized nature of the media ensures that you can do cool things like marking videos as &ldquo;watched&rdquo;, filtering videos by genre, and even resuming from your last position across all devices.</p>
+<p>So, I can start watching a movie on my phone, and later on, go over to the TV and continue from exactly where I stopped the last time.</p>
+<p>Plex Media server uses Universal Plug and Play (UPnP) to stream media across devices. Therefore, if for some reason, you don&rsquo;t have $4.99 to give the Plex developers, you use one of the free UPnP applications available on android. I can confirm that <a href="https:&#47;&#47;play.google.com&#47;store&#47;apps&#47;details?id=com.bubblesoft.android.bubbleupnp">BubbleUPnP<&#47;a> does recognize the Plex server and allows you to play your media, but you do lose some of the cooler features such as the resume feature highlighted above.</p>
+<p>Its nice to be able to setup your home media centre using the Raspberry Pi, and stream your content from a central server to multiple devices. However, sometimes, your media might be on your phone or tablet. One might not be inclined to first copy it to your server, index it, and then stream it.</p>
+<p>Luckily, there are ways to stream content directly from your phone or tablet to your Raspberry Pi powered TV, and we will explore that in the next post!.</p>

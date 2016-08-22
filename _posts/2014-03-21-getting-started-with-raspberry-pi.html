@@ -1,0 +1,50 @@
+---
+layout: post
+status: publish
+published: true
+title: Getting Started with Raspberry Pi
+author:
+  display_name: muyiscoi
+  login: muyiscoi
+  email: muyiwaiyowu@gmail.com
+  url: https://muyiscoi.com
+author_login: muyiscoi
+author_email: muyiwaiyowu@gmail.com
+author_url: https://muyiscoi.com
+wordpress_id: 609
+wordpress_url: http://www.muyiscoi.com/?p=609
+date: '2014-03-21 19:19:44 -0400'
+date_gmt: '2014-03-21 19:19:44 -0400'
+categories:
+- Technology
+tags:
+- linux
+- Raspberry Pi
+- computers
+- networking
+comments: []
+---
+<p>After being constantly hounded by several people, I&rsquo;ve finally gotten around to writing this post.</p>
+<p>Instructional blog posts on getting a Raspberry Pi to do just about anything imaginable are a dime-a-dozen on the internet. That means, a lot of the stuff I&rsquo;m writing in this post are not new, and are stuff I also learned from reading blog posts and wikis. I however am bringing a uniquely Nigerian perspective, and this might be useful to others trying to accomplish something similar in a similar environment.</p>
+<p>Now, without much ado, lets get into it.</p>
+<p><strong>What exactly is a Raspberry Pi?<&#47;strong></p>
+<p><img alt="" src="https:&#47;&#47;31.media.tumblr.com&#47;fc7385a783a0e928cd764aceb6d93887&#47;tumblr_inline_mydfgpTtDr1srketq.jpg" &#47;></p>
+<p>According to the guys that made it,</p>
+<blockquote><p><em>"The Raspberry Pi is a low-cost credit-card sized computer that plugs into your TV and a keyboard".<&#47;em><&#47;blockquote><br />
+It was originally designed for the educational purposes, especially for kids, but its uses have ballooned over the years and now, it can be found doing stuff like running <a href="http:&#47;&#47;reviews.cnet.co.uk&#47;desktops&#47;25-fun-things-to-do-with-a-raspberry-pi-50009851&#47;">Home Theatre software, controlling robots, home automation&#47; surveillance systems, etc.<&#47;a></p>
+<p>I was originally interested in the Raspberry Pi just as a device for experimentation, and the extremely cheap price of $35 made it even more appealing. I bought<a href="http:&#47;&#47;www.amazon.com&#47;gp&#47;product&#47;B008XVAVAW&#47;ref=oh_details_o00_s00_i01?ie=UTF8&amp;psc=1"> this pack from Amazon <&#47;a>and got the Pi along with a clear case, HDMI cable, Micro USB power pack and an 8gb SD card preloaded with some Pi software for Noobs.</p>
+<p>I got it sent to Nigeria through <a href="http:&#47;&#47;www.shippyme.com&#47;">Shippyme<&#47;a>.</p>
+<p><strong>Setting up<&#47;strong></p>
+<p><img alt="" src="https:&#47;&#47;31.media.tumblr.com&#47;5ed3f6ea286bb5818558854faab5ad27&#47;tumblr_inline_mydfis8MQA1srketq.jpg" &#47;></p>
+<p>Setting up the Raspberry Pi is relatively easy to do, even more so if you have Linux experience (as I do), but still fairly easy if you don&rsquo;t. The Raspberry Pi folks officially recommend a variant of Debian Linux called <em><a href="http:&#47;&#47;www.raspbian.org&#47;">Raspbian<&#47;a>.<&#47;em>&nbsp;Since that was one of the preloaded OSes that came with my SD Card, I loaded it up first to see how things ran. If you don&rsquo;t go the route of getting the pack, you would have to install Raspbian yourself. The setup process is relatively painless but the download would set you back 500+ Mb.</p>
+<p><em>Raspbian<&#47;em> is a full featured debian distribution with all its binaries recompiled against the ARM architecture which the Pi&rsquo;s CPU has. It comes with a modern Desktop environment and has all the important bits of any OS. Overall, its pretty boring. Of course, there are things that can be done to spice up Raspbian and add some extra features, but I didn&rsquo;t linger on Raspbian to try any of them out.</p>
+<p>The Raspberry Pi is essentially a Computer board. Therefore, in order to use it, accessories such as a Keyboard, Mouse and even power supply have to be added externally. The Pi possesses two full USB ports for the peripherals, as well as a HDMI port for Digital Video&#47;Audio output, Composite video and 3.5mm audio jack for Analogue output. The Pi doesn&rsquo;t have a Wireless receiver, but it does have an RJ45 Ethernet port for all your networking needs. This turned out to be a bit of a limitation for me, but I was able to overcome it later with a bit of spending.</p>
+<p><strong>Issues<&#47;strong></p>
+<p>The only major issue I had while setting up my Pi was the fact that I use a MiFi device to connect to the internet. The device broadcasts a wireless network, and doesn&rsquo;t have an Ethernet port. Since the Raspberry Pi doesn&rsquo;t have a wireless card, this posed a bit of a problem as regards getting the Pi connected to the internet.</p>
+<p><img alt="" src="https:&#47;&#47;31.media.tumblr.com&#47;89c6d579701a6fe5137bdee27abde5e6&#47;tumblr_inline_mydfp1B4kC1srketq.jpg" &#47;></p>
+<p>I eventually overcame this by getting a fairly cheap Wireless Access point (TP-Link WA701ND) which has one Ethernet port as well as broadcasting a wireless network. The device doesn&rsquo;t have a SIM Slot though, so it can&rsquo;t be used to replace my MiFi.</p>
+<p>I setup the TP-Link access point as a Wireless repeater to the network propagated from the MiFi. This essentially made the access point connected to the same network as MiFi, and meant that any device connected to the Access point via LAN (in this case, the Pi) also got connected to the same network originating from the MiFi. This fixed my issue with getting the Pi online.</p>
+<p><strong>Using the Raspberry Pi.<&#47;strong></p>
+<p>Once you have everything setup the way you like, its time to actually use the device to get some work done (or not, depending on what you want). In my case, I was interested in using the Pi as a Home Theatre PC. This meant Raspbian wasn&rsquo;t a good fit for me. Luckily, there are two excellent solutions available for the Pi in this field, both based on <a href="http:&#47;&#47;xbmc.org&#47;">XBMC<&#47;a>. <a href="http:&#47;&#47;openelec.tv&#47;">OpenELEC<&#47;a> and <a href="http:&#47;&#47;rasplex.com&#47;">RasPlex<&#47;a>.</p>
+<p>In the next article, I&rsquo;ll discuss how I got both setup, my experiences with them, and also discuss how to get content streamed from your media server PC, phone or tablet to your Raspberry Pi.</p>
+<p><em>This post was originally published on my Tumblr, but I devided to repost it here since I nolonger post there, or link to it anywhere again.<&#47;em></p>

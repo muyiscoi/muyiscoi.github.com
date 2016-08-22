@@ -1,0 +1,46 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Becoming a System Administrator Part 1: Preparing the environment'
+author:
+  display_name: muyiscoi
+  login: muyiscoi
+  email: muyiwaiyowu@gmail.com
+  url: https://muyiscoi.com
+author_login: muyiscoi
+author_email: muyiwaiyowu@gmail.com
+author_url: https://muyiscoi.com
+wordpress_id: 918
+wordpress_url: http://muyiscoi.com/?p=918
+date: '2016-07-05 15:38:46 -0400'
+date_gmt: '2016-07-05 15:38:46 -0400'
+categories:
+- Technology
+- Sysadmin
+tags:
+- linux
+- sysadmin
+- "#becomingasysadmin"
+- centos7
+- spacewalk server
+comments: []
+---
+<p><em>NOTE: &nbsp;I'm attempting to accomplish all the tasks laid out in <a href="https:&#47;&#47;www.reddit.com&#47;r&#47;linuxadmin&#47;comments&#47;2s924h&#47;how_did_you_get_your_start&#47;cnnw1ma">this<&#47;a> post. For more context, check out this <a href="https:&#47;&#47;muyiscoi.com&#47;?p=915">blog<&#47;a>.<&#47;em></p>
+<p>Before getting started, I need to prepare the hardware to be used. This includes storage, networking and compute resources. I only have access to my laptop for all these, so I'm a bit limited but should be able to make it work.</p>
+<p>I have taken the following steps to setup the environment</p>
+<ol>
+<li>Installed CentOS7 x86_64 on a partition of the second hard drive in my laptop.<&#47;li>
+<li>Ran an update<&#47;li>
+<li>Installed KVM hypervisor on the CentOS host, and virt-manager to manage the VMs<&#47;li>
+<li>Created&nbsp;a custom bridge for kvm (kvmbr0) and added the pNIC (enp1s0) as an interface in the bridge<a href="http:&#47;&#47;muyiscoi.com&#47;blog&#47;wp-content&#47;uploads&#47;2016&#47;07&#47;network.png"><img class="aligncenter size-medium wp-image-920" src="http:&#47;&#47;muyiscoi.com&#47;blog&#47;wp-content&#47;uploads&#47;2016&#47;07&#47;network-580x102.png" alt="custom bridge " width="580" height="102" &#47;><&#47;a><&#47;li>
+<li>Installed a CentOS7 guest on the KVM hypervisor configured to use the custom bridge configured above.<&#47;li>
+<li>Installed <a href="http:&#47;&#47;spacewalkproject.org&#47;download.html">Spacewalk<&#47;a> server on the first VM<&#47;li>
+<li>Configured Dynamic DNS support on my home router using&nbsp;<a href="http:&#47;&#47;www.noip.com&#47;">noip<&#47;a><&#47;li>
+<li>Configured port forwarding for the ssh port on my router in order to have access to my host and VMs outside my local network<&#47;li><br />
+<&#47;ol><br />
+The VMs configured to use kvmbr0 bridge get assigned DHCP addresses by my router, and are therefore addressable anywhere within my private network. In the future, I will configure one of the VMs as a local DNS and DHCP server, and that will take care of IP address assignment and name resolution.</p>
+<p>Relevant link(s) used</p>
+<ul>
+<li><a href="https:&#47;&#47;www.unixmen.com&#47;install-and-configure-spacewalk-in-centos-7&#47;">Installing Spacewalk<&#47;a><&#47;li><br />
+<&#47;ul></p>
