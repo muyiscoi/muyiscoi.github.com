@@ -26,21 +26,21 @@ tags:
 - spacewalk server
 comments: []
 ---
-<p><em>NOTE: &nbsp;I'm attempting to accomplish all the tasks laid out in <a href="https:&#47;&#47;www.reddit.com&#47;r&#47;linuxadmin&#47;comments&#47;2s924h&#47;how_did_you_get_your_start&#47;cnnw1ma">this<&#47;a> post. For more context, check out this <a href="https:&#47;&#47;muyiscoi.com&#47;?p=915">blog<&#47;a>.<&#47;em></p>
+<p><em>NOTE:  I'm attempting to accomplish all the tasks laid out in <a href="https://www.reddit.com/r/linuxadmin/comments/2s924h/how_did_you_get_your_start/cnnw1ma">this</a> post. For more context, check out this <a href="https://muyiscoi.com/?p=915">blog</a>.</em></p>
 <p>Before getting started, I need to prepare the hardware to be used. This includes storage, networking and compute resources. I only have access to my laptop for all these, so I'm a bit limited but should be able to make it work.</p>
 <p>I have taken the following steps to setup the environment</p>
 <ol>
-<li>Installed CentOS7 x86_64 on a partition of the second hard drive in my laptop.<&#47;li>
-<li>Ran an update<&#47;li>
-<li>Installed KVM hypervisor on the CentOS host, and virt-manager to manage the VMs<&#47;li>
-<li>Created&nbsp;a custom bridge for kvm (kvmbr0) and added the pNIC (enp1s0) as an interface in the bridge<a href="http:&#47;&#47;muyiscoi.com&#47;blog&#47;wp-content&#47;uploads&#47;2016&#47;07&#47;network.png"><img class="aligncenter size-medium wp-image-920" src="http:&#47;&#47;muyiscoi.com&#47;blog&#47;wp-content&#47;uploads&#47;2016&#47;07&#47;network-580x102.png" alt="custom bridge " width="580" height="102" &#47;><&#47;a><&#47;li>
-<li>Installed a CentOS7 guest on the KVM hypervisor configured to use the custom bridge configured above.<&#47;li>
-<li>Installed <a href="http:&#47;&#47;spacewalkproject.org&#47;download.html">Spacewalk<&#47;a> server on the first VM<&#47;li>
-<li>Configured Dynamic DNS support on my home router using&nbsp;<a href="http:&#47;&#47;www.noip.com&#47;">noip<&#47;a><&#47;li>
-<li>Configured port forwarding for the ssh port on my router in order to have access to my host and VMs outside my local network<&#47;li><br />
-<&#47;ol><br />
+<li>Installed CentOS7 x86_64 on a partition of the second hard drive in my laptop.</li>
+<li>Ran an update</li>
+<li>Installed KVM hypervisor on the CentOS host, and virt-manager to manage the VMs</li>
+<li>Created a custom bridge for kvm (kvmbr0) and added the pNIC (enp1s0) as an interface in the bridge<a href="http://muyiscoi.com/blog/wp-content/uploads/2016/07/network.png"><img class="aligncenter size-medium wp-image-920" src="http://muyiscoi.com/blog/wp-content/uploads/2016/07/network-580x102.png" alt="custom bridge " width="580" height="102" /></a></li>
+<li>Installed a CentOS7 guest on the KVM hypervisor configured to use the custom bridge configured above.</li>
+<li>Installed <a href="http://spacewalkproject.org/download.html">Spacewalk</a> server on the first VM</li>
+<li>Configured Dynamic DNS support on my home router using <a href="http://www.noip.com/">noip</a></li>
+<li>Configured port forwarding for the ssh port on my router in order to have access to my host and VMs outside my local network</li><br />
+</ol><br />
 The VMs configured to use kvmbr0 bridge get assigned DHCP addresses by my router, and are therefore addressable anywhere within my private network. In the future, I will configure one of the VMs as a local DNS and DHCP server, and that will take care of IP address assignment and name resolution.</p>
 <p>Relevant link(s) used</p>
 <ul>
-<li><a href="https:&#47;&#47;www.unixmen.com&#47;install-and-configure-spacewalk-in-centos-7&#47;">Installing Spacewalk<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li><a href="https://www.unixmen.com/install-and-configure-spacewalk-in-centos-7/">Installing Spacewalk</a></li><br />
+</ul></p>

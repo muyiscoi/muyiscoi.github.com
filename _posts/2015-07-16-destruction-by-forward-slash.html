@@ -26,9 +26,9 @@ comments: []
 ---
 <p>I deployed a Raspberry Pi2 server at home to act as my Plex Media server and it has been working well for over a week now. I am also using it to learn more about server administration. Today, I realized that I had a lot of files in the Trash of my external hard drive connected to the Pi and decided to sort them out.</p>
 <p>While doing the sorting, I intended to run this command</p>
-<blockquote><p>mv *&#47;*.* .<&#47;blockquote><br />
+<blockquote><p>mv */*.* .</blockquote><br />
 but instead, ran</p>
-<blockquote><p>mv &#47;*&#47;*.* &#47;<&#47;blockquote><br />
+<blockquote><p>mv /*/*.* /</blockquote><br />
 as root user.</p>
 <p>If you're familiar with the Linux command line, you realize the epic mistake I made. I realized the problem a little too late though, and now my server is completely ruined. Gotta go back home and reprovision everything from scratch.</p>
 <p>Guess I have to be more careful in the future. See what forward slash in the wrong places can cause!.</p>

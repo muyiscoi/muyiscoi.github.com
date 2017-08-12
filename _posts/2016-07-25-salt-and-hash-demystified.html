@@ -11,15 +11,15 @@ author:
 author_login: muyiscoi
 author_email: muyiwaiyowu@gmail.com
 author_url: https://muyiscoi.com
-excerpt: "<a href=\"https:&#47;&#47;muyiscoi.com&#47;blog&#47;wp-content&#47;uploads&#47;2016&#47;07&#47;salt-hash-password-java.png\"><img
-  class=\"aligncenter size-full wp-image-934\" src=\"https:&#47;&#47;muyiscoi.com&#47;blog&#47;wp-content&#47;uploads&#47;2016&#47;07&#47;salt-hash-password-java.png\"
-  alt=\"salt-hash-password-java\" width=\"569\" height=\"130\" &#47;><&#47;a>\r\n\r\nIf
+excerpt: "<a href=\"https://muyiscoi.com/blog/wp-content/uploads/2016/07/salt-hash-password-java.png\"><img
+  class=\"aligncenter size-full wp-image-934\" src=\"https://muyiscoi.com/blog/wp-content/uploads/2016/07/salt-hash-password-java.png\"
+  alt=\"salt-hash-password-java\" width=\"569\" height=\"130\" /></a>\r\n\r\nIf
   you've been on the internet in the last couple of years, you must have come across
-  an article or twenty about yet another data breach where sensitive information&nbsp;like
-  user account passwords and credit card details were&nbsp;stolen by \"hackers\".
-  It is becoming an almost&nbsp;daily occurrence now, and no company is immune, irrespective
-  of how large they&nbsp;are or how sophisticated their&nbsp;infrastructure is.\r\n\r\nThe
-  only sure way to mitigate against this eventuality&nbsp;is to ensure that all&nbsp;data
+  an article or twenty about yet another data breach where sensitive information like
+  user account passwords and credit card details were stolen by \"hackers\".
+  It is becoming an almost daily occurrence now, and no company is immune, irrespective
+  of how large they are or how sophisticated their infrastructure is.\r\n\r\nThe
+  only sure way to mitigate against this eventuality is to ensure that all data
   is well protected by implementing well documented and industry accepted security
   best practices. One of such practices, and the subject of this blog, is \"hashing
   and salting\" of passwords in a database.\r\n\r\n"
@@ -40,30 +40,30 @@ tags:
 - php
 comments: []
 ---
-<p><a href="https:&#47;&#47;muyiscoi.com&#47;blog&#47;wp-content&#47;uploads&#47;2016&#47;07&#47;salt-hash-password-java.png"><img class="aligncenter size-full wp-image-934" src="https:&#47;&#47;muyiscoi.com&#47;blog&#47;wp-content&#47;uploads&#47;2016&#47;07&#47;salt-hash-password-java.png" alt="salt-hash-password-java" width="569" height="130" &#47;><&#47;a></p>
-<p>If you've been on the internet in the last couple of years, you must have come across an article or twenty about yet another data breach where sensitive information&nbsp;like user account passwords and credit card details were&nbsp;stolen by "hackers". It is becoming an almost&nbsp;daily occurrence now, and no company is immune, irrespective of how large they&nbsp;are or how sophisticated their&nbsp;infrastructure is.</p>
-<p>The only sure way to mitigate against this eventuality&nbsp;is to ensure that all&nbsp;data is well protected by implementing well documented and industry accepted security best practices. One of such practices, and the subject of this blog, is "hashing and salting" of passwords in a database.</p>
+<p><a href="https://muyiscoi.com/blog/wp-content/uploads/2016/07/salt-hash-password-java.png"><img class="aligncenter size-full wp-image-934" src="https://muyiscoi.com/blog/wp-content/uploads/2016/07/salt-hash-password-java.png" alt="salt-hash-password-java" width="569" height="130" /></a></p>
+<p>If you've been on the internet in the last couple of years, you must have come across an article or twenty about yet another data breach where sensitive information like user account passwords and credit card details were stolen by "hackers". It is becoming an almost daily occurrence now, and no company is immune, irrespective of how large they are or how sophisticated their infrastructure is.</p>
+<p>The only sure way to mitigate against this eventuality is to ensure that all data is well protected by implementing well documented and industry accepted security best practices. One of such practices, and the subject of this blog, is "hashing and salting" of passwords in a database.</p>
 <p><a id="more"></a><a id="more-928"></a></p>
-<h1><strong>Hashing<&#47;strong><&#47;h1><br />
-Hashing is a cryptographic process where a one-way operation is carried out on data in order to generate a unique fingerprint known as&nbsp;a hash. Since the operation is one way, the original data cannot be recovered from its hash. The hash is however unique to that data and any changes made would lead to a different hash being generated.<br />
-As a result of this property, hashing algorithms are incredibly useful in verifying data integrity in a process known as <a href="https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Non-repudiation">non-repudiation<&#47;a>. One popular use of hashing in this sense is in verifying file downloads before installation&nbsp;in order to ensure that they have not been tampered with via a man-in-the-middle attack or some other means.</p>
+<h1><strong>Hashing</strong></h1><br />
+Hashing is a cryptographic process where a one-way operation is carried out on data in order to generate a unique fingerprint known as a hash. Since the operation is one way, the original data cannot be recovered from its hash. The hash is however unique to that data and any changes made would lead to a different hash being generated.<br />
+As a result of this property, hashing algorithms are incredibly useful in verifying data integrity in a process known as <a href="https://en.wikipedia.org/wiki/Non-repudiation">non-repudiation</a>. One popular use of hashing in this sense is in verifying file downloads before installation in order to ensure that they have not been tampered with via a man-in-the-middle attack or some other means.</p>
 <p>Another use of hashing is to verify user access to a resource without knowing any knowledge of the key required to access said resource. This is particularly useful for websites and other applications that require user login. As mentioned earlier, it is safe to assume that your website is likely to be hacked into and your database stolen at some point during its life cycle. It is therefore extremely irresponsible to store passwords in plain-text in the database table of your site.</p>
-<p>Hashing algorithms can be used to generate a cryptograhic hash of the password at the time of account creation, and that is what will be stored in the database. This ensures that a unique key string is stored for each user, and&nbsp;that string cannot theoretically be reversed back to the original plain text since hashing is a one way operation.<br />
-Whenever the user tries to login, the plain-text password entered into the login form is again hashed with the same algorithm and the generated hash is compared with the hash stored against that particular user in the database. If both hashes match, login is confirmed and the user gains access to the resource. This ensures that the website&#47;app can verify user credentials without actually knowing said credentials.</p>
+<p>Hashing algorithms can be used to generate a cryptograhic hash of the password at the time of account creation, and that is what will be stored in the database. This ensures that a unique key string is stored for each user, and that string cannot theoretically be reversed back to the original plain text since hashing is a one way operation.<br />
+Whenever the user tries to login, the plain-text password entered into the login form is again hashed with the same algorithm and the generated hash is compared with the hash stored against that particular user in the database. If both hashes match, login is confirmed and the user gains access to the resource. This ensures that the website/app can verify user credentials without actually knowing said credentials.</p>
 <p>There are several Hashing algorithms available today such as MD5, SHA-1, SHA-2, bcrypt etc. Security vulnerabilites have been detected and exploited in the MD5 and the SHA algorithm s. As a result, bcrypt and better is currently recommended for all hashing purposes.</p>
 <p>For hashing to work, the same algorithm has to be used to generate the hash everytime, in order for the hashes to remain the same and be comparable. This introduces another problem, as two user accounts having the same passwords will have the same hash. Attackers can therefore build up dictionaries of hashes of popular passwords using the different hash algorithms available. Salting passwords were introduced to further improve on the security of hashes.</p>
-<h1>Password Salt<&#47;h1><br />
-While storing passwords in hashes are way more secure than plain text,&nbsp;hashed passwords are still susceptible to other forms of attack such as dictionary and rainbow attacks. In order to mitigate against this, a password salt has to be added to the password before hashing. A salt in cryptography is a random data included as an additional input to a function that hashes a password.</p>
-<p>In order for salts to be useful, it has to be randomly generated and unique to each user. The salts don't have to be encrypted, and can be stored in plain text on the database.&nbsp;The salt increases the unique property of the hash meaning that even if two user accounts have the same passwords, their hash would be different as a result of them having two different randomly generated salts.</p>
-<h1>Conclusion<&#47;h1><br />
-Salting and hashing&nbsp;combine to provide important security for user credentials on the web. They are important technologies and techniques that should be well understood by anyone venturing into this field. This article has only scratched the surface on what can be understood about them, and there are several resources online where more information can be found.</p>
-<p>Thankfully, as a web developer, you do not need extensive understanding of cryptography in order to implement a user account system utilizing password hashing and salting. Most major programming languages either have built-in functions, or popular third party functions that can be easily called to carry out the process for you. A popular one in PHP is <a href="http:&#47;&#47;php.net&#47;manual&#47;en&#47;function.password-hash.php">password_hash<&#47;a>.</p>
-<p><strong>Relevant Links<&#47;strong></p>
+<h1>Password Salt</h1><br />
+While storing passwords in hashes are way more secure than plain text, hashed passwords are still susceptible to other forms of attack such as dictionary and rainbow attacks. In order to mitigate against this, a password salt has to be added to the password before hashing. A salt in cryptography is a random data included as an additional input to a function that hashes a password.</p>
+<p>In order for salts to be useful, it has to be randomly generated and unique to each user. The salts don't have to be encrypted, and can be stored in plain text on the database. The salt increases the unique property of the hash meaning that even if two user accounts have the same passwords, their hash would be different as a result of them having two different randomly generated salts.</p>
+<h1>Conclusion</h1><br />
+Salting and hashing combine to provide important security for user credentials on the web. They are important technologies and techniques that should be well understood by anyone venturing into this field. This article has only scratched the surface on what can be understood about them, and there are several resources online where more information can be found.</p>
+<p>Thankfully, as a web developer, you do not need extensive understanding of cryptography in order to implement a user account system utilizing password hashing and salting. Most major programming languages either have built-in functions, or popular third party functions that can be easily called to carry out the process for you. A popular one in PHP is <a href="http://php.net/manual/en/function.password-hash.php">password_hash</a>.</p>
+<p><strong>Relevant Links</strong></p>
 <ul>
-<li><a href="https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Hash_function">https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Hash_function<&#47;a><&#47;li>
-<li><a href="https:&#47;&#47;crackstation.net&#47;hashing-security.htm">https:&#47;&#47;crackstation.net&#47;hashing-security.htm<&#47;a><&#47;li>
-<li><a href="https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Salt_(cryptography)">https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Salt_(cryptography)<&#47;a><&#47;li>
-<li><a href="http:&#47;&#47;security.stackexchange.com&#47;questions&#47;17421&#47;how-to-store-salt">http:&#47;&#47;security.stackexchange.com&#47;questions&#47;17421&#47;how-to-store-salt<&#47;a><&#47;li>
-<li><a href="http:&#47;&#47;php.net&#47;manual&#47;en&#47;function.password-hash.php">http:&#47;&#47;php.net&#47;manual&#47;en&#47;function.password-hash.php<&#47;a><&#47;li>
-<li><a href="https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Hash_function_security_summary">https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Hash_function_security_summary<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li><a href="https://en.wikipedia.org/wiki/Hash_function">https://en.wikipedia.org/wiki/Hash_function</a></li>
+<li><a href="https://crackstation.net/hashing-security.htm">https://crackstation.net/hashing-security.htm</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Salt_(cryptography)">https://en.wikipedia.org/wiki/Salt_(cryptography)</a></li>
+<li><a href="http://security.stackexchange.com/questions/17421/how-to-store-salt">http://security.stackexchange.com/questions/17421/how-to-store-salt</a></li>
+<li><a href="http://php.net/manual/en/function.password-hash.php">http://php.net/manual/en/function.password-hash.php</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hash_function_security_summary">https://en.wikipedia.org/wiki/Hash_function_security_summary</a></li><br />
+</ul></p>
