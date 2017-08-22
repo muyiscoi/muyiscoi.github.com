@@ -1,3 +1,5 @@
+# Permalinks
+permalink:      /:year-:month-:day/:title
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -8,6 +10,7 @@
 # Site settings
 title: Muyiwa Iyowu
 #email: your-email@domain.com
+paginate:       5
 description: > # this means to ignore newlines until "baseurl:"
   Random musings of @muyiscoi.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -17,3 +20,23 @@ github_username:  muyiscoi
 name: Muyiwa Iyowu
 # Build settings
 markdown: kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# About
+author:
+  name:         Muyiwa Iyowu
+  url:          http://muyiscoi.com
+  email:        muyiwaiyowu@gmail.com
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/muyiscoi/muyiscoi.github.com
+
+# Gems
+gems:
+  - jekyll-paginate
