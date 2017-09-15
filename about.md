@@ -5,4 +5,5 @@ author: "Muyiwa"
 permalink: /about/
 ---
 
-Same old blog. Now on github. Deal with it! :)
+I'm Muyiwa Iyowu. Nigerian, SysAdmin, Linux Geek, Writer, etc. This is a blog about my musings and ramblings.
+Been going on in different iterations since 2010. Expect rants, poems, reviews, technical articles, etc.
