@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: I gave a Talk
+title: Kubernetes Headtalk
 author: Muyiwa
 categories:
 - Public Speaking
@@ -11,6 +11,8 @@ tags:
 - Talk
 - Public Speaking
 - Containers
+- Headtalk
+- Kubernetes
 
 comments: []
 ---
